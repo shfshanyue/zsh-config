@@ -73,3 +73,6 @@ export J_DIR="/usr/local/Cellar/autojump/22.5.1/share/autojump"
 
 fpath=(~/.zsh/completion $fpath)
 autoload -Uz compinit && compinit -i
+export PUB_HOSTED_URL=https://pub.flutter-io.cn
+export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
+export PATH="$PATH:/Users/shanyue/Documents/flutter/bin"
